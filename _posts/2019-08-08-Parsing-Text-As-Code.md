@@ -17,10 +17,6 @@ This morning, [Matt Hitchcock](https://twitter.com/hitchysg_MSFT) asked for some
 
 Seemed like an interesting challenge. In the past I've wanted to figure out how to do something similar (read variable names from text & then return the value of that variable), so I decided to jump on it.
 
-```powershell
-  $var1 = "example data1"
-  $var2 = "example data2"
-  $line = '@{property1="$var1";Property2="$var2"}'
-```
+<script src="https://github.com/Torch02/Torch02.github.io/blob/master/src/20190808setup.ps1"></script>
 
 As my setup
