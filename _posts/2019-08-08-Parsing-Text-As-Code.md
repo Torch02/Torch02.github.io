@@ -2,6 +2,7 @@
 layout: post
 title: "Parsing Text As Code"
 date: "2019-08-08"
+tags: [powershell, twitter]
 ---
 
 ## Twitter Coding Challenges
@@ -27,3 +28,4 @@ $line = '@{property1="$var1";Property2="$var2"}'
 -->
 
 As my setup for working on this challenge.
+First order of business is to grab the variable names from the <span style="color:green">$line</span> input.
