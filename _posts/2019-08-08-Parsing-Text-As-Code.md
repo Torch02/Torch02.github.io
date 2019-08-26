@@ -18,16 +18,14 @@ This morning, [Matt Hitchcock](https://twitter.com/hitchysg_MSFT) asked for some
 
 Seemed like an interesting challenge. In the past I've wanted to figure out how to do something similar (read variable names from text & then return the value of that variable), so I decided to jump on it.
 
-<!-- ``` posh --->
-{% highlight powershell %}
-$var1 = "example data1"
-$var2 = "example data2"
-$line = "@{property1="$var1";Property2="$var2"}"
-{% endhighlight %}
-<!-- ``` --->
+```powershell
+  $var1 = "example data1"
+  $var2 = "example data2"
+  $line = "@{property1="$var1";Property2="$var2"}"
+```
 <!--
 <script src="https://github.com/Torch02/Torch02.github.io/blob/master/src/20190808setup.ps1" > </script>
 -->
 
 As my setup for working on this challenge.
-First order of business is to grab the variable names from the <span style="color:green">$line</span> input, which is easy enough with a couple of .split() calls:
+First order of business is to grab the variable names from the <span style="color:green">$line</span> input, which is easy enough with a couple of .split() calls on the input:
