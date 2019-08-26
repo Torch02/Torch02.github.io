@@ -30,4 +30,4 @@ $line = "@{property1="$var1";Property2="$var2"}"
 -->
 
 As my setup for working on this challenge.
-First order of business is to grab the variable names from the <span style="color:green">$line</span> input.
+First order of business is to grab the variable names from the <span style="color:green">$line</span> input. Then
