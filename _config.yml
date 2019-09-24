@@ -2,13 +2,4 @@ name: Steve Taylor, Random Thoughts
 markdown: kramdown
 highlighter: rouge
 
-theme: jekyll-theme-slate
-
-kramdown:
-
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-  
+theme: jekyll-theme-slate  
